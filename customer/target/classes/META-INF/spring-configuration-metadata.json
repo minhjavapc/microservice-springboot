@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "text",
+      "type": "com.likelion.customer.MessageConfig",
+      "sourceType": "com.likelion.customer.MessageConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "text.service-name",
+      "type": "java.lang.String",
+      "sourceType": "com.likelion.customer.MessageConfig"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,19 @@
+server:
+  port: 9088
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: customerService
+          uri: http://localhost:8080/
+          predicates:
+            - Path=/api/v1/customer/**
+    config:
+      server:
+        git:
+          uri: https://github.com/Mingbae0502/spring-cloud-config.git
+#          username: user
+#          password: secret
+#          searchPaths: foo,bar*
+#          timeout: 10

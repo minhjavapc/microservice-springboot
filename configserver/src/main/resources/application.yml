@@ -1,0 +1,15 @@
+#server:
+#  port: 8888
+#
+#spring:
+#  application:
+#    name: configserver
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: https://github.com/minhjavapc/spring-cloud-config-server.git
+##          username: user
+##          password: secret
+##          searchPaths: foo,bar*
+##          timeout: 10
